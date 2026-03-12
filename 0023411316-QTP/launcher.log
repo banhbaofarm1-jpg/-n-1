@@ -1,0 +1,144 @@
+[2026-03-09 21:42:40] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 21:51:39] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 21:52:30] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 21:52:40] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 21:53:04] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 22:02:03] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 22:02:07] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 22:02:11] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 22:02:15] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 22:02:16] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 22:02:19] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 22:02:22] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 22:02:24] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 22:02:36] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 22:02:39] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 22:02:50] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-09 22:02:54] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-10 11:45:32] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-10 11:46:03] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-10 16:55:41] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-10 16:55:46] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-12 02:33:36] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-12 02:39:32] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-12 02:42:32] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-12 02:42:46] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-12 03:00:40] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-12 18:50:52] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-12 18:50:53] script=tuvannghenhiep.py returncode=1
+Traceback (most recent call last):
+  File "c:\Users\hongthilai3\Desktop\0023411316-QTP\tuvannghenhiep.py", line 33, in connect_database
+    print("\u2713 K\u1ebft n\u1ed1i SQLite thành công! (database.db)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\hongthilai3\Desktop\0023411316-QTP\tuvannghenhiep.py", line 40, in <module>
+    if not connect_database():
+           ~~~~~~~~~~~~~~~~^^
+  File "c:\Users\hongthilai3\Desktop\0023411316-QTP\tuvannghenhiep.py", line 36, in connect_database
+    print(f"\u2717 L\u1ed6I k\u1ebft n\u1ed1i SQLite: {e}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2717' in position 0: character maps to <undefined>
+------------------------------------------------------------
+[2026-03-12 18:51:04] script=tuvannghenhiep.py returncode=1
+Traceback (most recent call last):
+  File "c:\Users\hongthilai3\Desktop\0023411316-QTP\tuvannghenhiep.py", line 33, in connect_database
+    print("\u2713 K\u1ebft n\u1ed1i SQLite thành công! (database.db)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\hongthilai3\Desktop\0023411316-QTP\tuvannghenhiep.py", line 40, in <module>
+    if not connect_database():
+           ~~~~~~~~~~~~~~~~^^
+  File "c:\Users\hongthilai3\Desktop\0023411316-QTP\tuvannghenhiep.py", line 36, in connect_database
+    print(f"\u2717 L\u1ed6I k\u1ebft n\u1ed1i SQLite: {e}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2717' in position 0: character maps to <undefined>
+------------------------------------------------------------
+[2026-03-12 19:02:17] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-12 19:02:21] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-12 19:02:58] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-12 20:12:34] script=tuvannghenhiep.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
+[2026-03-12 20:12:37] script=tracnghiem.py returncode=0
+Đóng bình thường
+------------------------------------------------------------
